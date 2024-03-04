@@ -1,5 +1,3 @@
-
-
 <template>
   <div id="app">
     <div v-for="number in numbers" :key="number" class="key" @click="showNumber(number)">
