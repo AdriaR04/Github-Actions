@@ -11,7 +11,6 @@ jobs:
 
       - name: Instal·lar dependències i construir el projecte
         run: |
-          npm ci
           npm run build
 
       - name: scp a produccio
